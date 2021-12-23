@@ -1,4 +1,4 @@
-package by.itacademy.laisha.coffeesaller.utils;
+package by.itacademy.laisha.foodproductseller.utils;
 
 import java.io.*;
 import java.text.SimpleDateFormat;
@@ -6,7 +6,7 @@ import java.util.Calendar;
 
 public final class Logger {
 
-    private static final String LOGS_FILE_NAME = "src\\by\\itacademy\\laisha\\coffeesaller\\logs\\logs.txt";
+    private static final String LOGS_FILE_NAME = "src\\by\\itacademy\\laisha\\foodproductseller\\logs\\logs.txt";
 
     private Logger() {
     }

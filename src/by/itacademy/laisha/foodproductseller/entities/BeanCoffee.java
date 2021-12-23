@@ -1,4 +1,4 @@
-package by.itacademy.laisha.coffeesaller.entities;
+package by.itacademy.laisha.foodproductseller.entities;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -12,13 +12,13 @@ public class BeanCoffee extends Coffee implements Comparable<BeanCoffee>, Compar
     }
 
     public BeanCoffee(String FOOD_PRODUCT_TYPE, String foodProductBrand, double foodProductVolume, double foodProductWeight, double foodProductPrice, int foodProductQuantity) {
-        super(FOOD_PRODUCT_TYPE, foodProductBrand, foodProductVolume, foodProductWeight, foodProductPrice, foodProductQuantity);
+        super(FOOD_PRODUCT_TYPE, foodProductBrand, foodProductQuantity, foodProductVolume, foodProductWeight, foodProductPrice);
     }
 
-    @Override
-    public void addFoodProduct(String FOOD_PRODUCT_TYPE, String foodProductBrand, double foodProductVolume, double foodProductWeight, double foodProductPrice, int foodProductQuantity) {
-        beanCoffees.add(new BeanCoffee(FOOD_PRODUCT_TYPE, foodProductBrand, foodProductVolume, foodProductWeight, foodProductPrice, foodProductQuantity));
-    }
+   // @Override
+    //public void addFoodProduct(String FOOD_PRODUCT_TYPE, String foodProductBrand, double foodProductVolume, double foodProductWeight, double foodProductPrice, int foodProductQuantity) {
+      //  beanCoffees.add(new BeanCoffee(FOOD_PRODUCT_TYPE, foodProductBrand, foodProductVolume, foodProductWeight, foodProductPrice, foodProductQuantity));
+    //}
 
     public ArrayList<BeanCoffee> getBeanCoffees() {
         return beanCoffees;

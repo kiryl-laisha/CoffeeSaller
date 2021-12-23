@@ -1,8 +1,7 @@
-package by.itacademy.laisha.coffeesaller.services;
+package by.itacademy.laisha.foodproductseller.services;
 
-import by.itacademy.laisha.coffeesaller.entities.CargoVan;
-import by.itacademy.laisha.coffeesaller.utils.ScreenUtils;
-import by.itacademy.laisha.coffeesaller.utils.TransportUtils;
+import by.itacademy.laisha.foodproductseller.entities.*;
+import by.itacademy.laisha.foodproductseller.utils.*;
 
 public class Transport {
 

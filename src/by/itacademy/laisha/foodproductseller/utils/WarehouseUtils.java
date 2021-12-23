@@ -1,7 +1,7 @@
-package by.itacademy.laisha.coffeesaller.utils;
+package by.itacademy.laisha.foodproductseller.utils;
 
-import by.itacademy.laisha.coffeesaller.entities.*;
-import by.itacademy.laisha.coffeesaller.services.Warehouse;
+import by.itacademy.laisha.foodproductseller.entities.*;
+import by.itacademy.laisha.foodproductseller.services.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -28,7 +28,7 @@ public class WarehouseUtils {
 
     public void createWarehouseDataBase() {
         Warehouse warehouse = new Warehouse();
-        warehouse.loadWarehouseDataBase();
+        warehouse.loadWarehouseDatabase();
     }
 
     public boolean workInWarehouseMenu() {

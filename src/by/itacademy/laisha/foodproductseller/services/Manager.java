@@ -1,34 +1,21 @@
-package by.itacademy.laisha.coffeesaller.services;
+package by.itacademy.laisha.foodproductseller.services;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import by.itacademy.laisha.coffeesaller.entities.CargoVan;
-import by.itacademy.laisha.coffeesaller.utils.MenuUtils;
-import by.itacademy.laisha.coffeesaller.utils.ScreenUtils;
-import by.itacademy.laisha.coffeesaller.entities.Vehicle;
-import by.itacademy.laisha.coffeesaller.utils.*;
+import by.itacademy.laisha.foodproductseller.utils.*;
 
 public class Manager {
     private static MenuUtils menuUtil = new MenuUtils();
     private static ScreenUtils screenUtils = new ScreenUtils();
     private static Transport transport = new Transport();
     private static TransportUtils transportUtils = new TransportUtils();
-    private static Warehouse warehouse = new Warehouse();
     private static WarehouseUtils warehouseUtils = new WarehouseUtils();
 
-
-    public Manager() {
-        createDataBase();
-    }
-
-    public void createDataBase() {
-        screenUtils.printString("Your access level - manager.");
-        warehouse.loadWarehouseDataBase();
+       // databases loading
+    public static void loadDatabases() {
+        Warehouse.loadWarehouseDatabase();
         transport.loadTransportDatabase();
     }
 
-    public boolean workInMainMenu() {
+    public static boolean workInMainMenu() {
         boolean exit = false;
         switch (menuUtil.getMainMenuItemSelection()) {
             case 1: {

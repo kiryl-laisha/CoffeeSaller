@@ -1,10 +1,9 @@
-package by.itacademy.laisha.coffeesaller.utils;
+package by.itacademy.laisha.foodproductseller.utils;
 
-import by.itacademy.laisha.coffeesaller.entities.CargoVan;
-import by.itacademy.laisha.coffeesaller.entities.Vehicle;
+import by.itacademy.laisha.foodproductseller.entities.*;
+
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class TransportUtils {
 

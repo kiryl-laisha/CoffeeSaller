@@ -1,15 +1,42 @@
-package by.itacademy.laisha.coffeesaller.utils;
+package by.itacademy.laisha.foodproductseller.utils;
 
+import java.util.NoSuchElementException;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class MenuUtils {
     private static int menuItemSelection;
     private static boolean correctMenuChoice;
     private static ScreenUtils screenUtil = new ScreenUtils();
-    private Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
     private Scanner scanner2 = new Scanner(System.in);
 
     public MenuUtils() {
+    }
+
+    public static String getFoodProductType(String foodProductClass) {
+        String foodProductType = null;
+        try {
+            do {
+                ScreenUtils.printFramedString("Enter a new type of " + foodProductClass.toLowerCase() + " , please:");
+                foodProductType = scanner.nextLine();
+                if (foodProductType.equals("1")) {
+                    break;
+                }
+
+                if (Pattern.matches("^[A-Z]+-?[a-z]+", foodProductType)) {
+                    break;
+                } else {
+                    ScreenUtils.printFramedString("Allowed to use uppercase (only first) and \n" +
+                            "lowercase letters and hyphen (optional).");
+                }
+            }
+            while (true);
+        } catch (NoSuchElementException noSuchElementException) {
+            ScreenUtils.printString("String has not been found for adding type of " + foodProductClass + ".");
+            Logger.log("String has not been found for adding type of " + foodProductClass + ".");
+        }
+        return foodProductType;
     }
 
     public int getMainMenuItemSelection() {
@@ -283,7 +310,7 @@ public class MenuUtils {
     }
 
     public double selectFoodProductQuantity() {
-       // screenUtil.printString("Please, select a quantity of " + FOOD_PRODUCT_TYPE + ": (for back to the collection menu choice \"0\")");
+        // screenUtil.printString("Please, select a quantity of " + FOOD_PRODUCT_TYPE + ": (for back to the collection menu choice \"0\")");
         menuItemSelection = scanner.nextInt();
         return 1.;
     }

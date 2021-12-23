@@ -1,7 +1,6 @@
-package by.itacademy.laisha.coffeesaller.entities;
+package by.itacademy.laisha.foodproductseller.entities;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class CargoVan extends Vehicle {
 

@@ -1,4 +1,4 @@
-package by.itacademy.laisha.coffeesaller.entities;
+package by.itacademy.laisha.foodproductseller.entities;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -12,13 +12,13 @@ public class GroundCoffee extends Coffee implements Comparable<GroundCoffee>, Co
     }
 
     public GroundCoffee(String FOOD_PRODUCT_TYPE, String foodProductBrand, double foodProductVolume, double foodProductWeight, double foodProductPrice, int foodProductQuantity) {
-        super(FOOD_PRODUCT_TYPE, foodProductBrand, foodProductVolume, foodProductWeight, foodProductPrice, foodProductQuantity);
+        super(FOOD_PRODUCT_TYPE, foodProductBrand, foodProductQuantity, foodProductVolume, foodProductWeight, foodProductPrice);
     }
 
-    @Override
-    public void addFoodProduct(String FOOD_PRODUCT_TYPE, String foodProductBrand, double foodProductVolume, double foodProductWeight, double foodProductPrice, int foodProductQuantity) {
-        groundCoffees.add(new GroundCoffee(FOOD_PRODUCT_TYPE, foodProductBrand, foodProductVolume, foodProductWeight, foodProductPrice, foodProductQuantity));
-    }
+   // @Override
+    //public void addFoodProduct(String FOOD_PRODUCT_TYPE, String foodProductBrand, double foodProductVolume, double foodProductWeight, double foodProductPrice, int foodProductQuantity) {
+      //  groundCoffees.add(new GroundCoffee(FOOD_PRODUCT_TYPE, foodProductBrand, foodProductVolume, foodProductWeight, foodProductPrice, foodProductQuantity));
+    //}
 
     public ArrayList<GroundCoffee> getGroundCoffees() {
         return groundCoffees;

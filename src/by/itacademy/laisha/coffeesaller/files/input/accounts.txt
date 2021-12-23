@@ -1,5 +1,0 @@
-laisha 12345 1 Kiryl Laisha
-ivanov 11111 2 Ivan Ivanov
-petrov 22222 3 Pyotr Petrov
-sidorov 3333 4 Lev Sidorov
-smirnov 4444 5 Ilya Smirnov

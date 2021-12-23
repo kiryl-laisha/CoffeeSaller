@@ -1,0 +1,2 @@
+Beans; Tchibo Barista Espresso; 8240; 12.4; 1000.0; 3.2E-3;
+Beans; Lavazza Qualita Oro; 12260; 12.1; 1000.0; 3.1E-3

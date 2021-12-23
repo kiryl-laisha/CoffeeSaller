@@ -1,4 +1,4 @@
-package by.itacademy.laisha.coffeesaller.utils;
+package by.itacademy.laisha.foodproductseller.utils;
 
 public class ScreenUtils {
 
@@ -9,8 +9,18 @@ public class ScreenUtils {
         System.out.println(string);
     }
 
+    public static void printFramedString(String string) {
+        System.out.println("-".repeat(200));
+        System.out.println(string);
+        System.out.println("-".repeat(200));
+    }
+
     public static void printVehicle(int item, String vehicleBrand, String vehicleModel, String vehicleRegisterSign, double vehicleVolume) {
         System.out.printf(" |% -3d|  %-13s|  %-13s|  %-17s|   %-9.1f|\n", item, vehicleBrand, vehicleModel, vehicleRegisterSign, vehicleVolume);
+    }
+
+    public static void printStrip() {
+        System.out.println("-".repeat(200));
     }
 
     public void printVehicleTableHeader() {
