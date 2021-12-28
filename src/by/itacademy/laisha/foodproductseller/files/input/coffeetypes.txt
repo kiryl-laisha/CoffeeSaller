@@ -1,0 +1,4 @@
+Beans
+Instant
+Ground
+Packaged

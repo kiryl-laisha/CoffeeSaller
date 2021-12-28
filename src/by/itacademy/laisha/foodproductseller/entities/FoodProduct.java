@@ -10,9 +10,6 @@ public abstract class FoodProduct {
     private double foodProductWeight;
     private double foodProductVolume;
 
-    public FoodProduct() {
-        }
-
     public FoodProduct(String foodProductClass, String foodProductType, String foodProductBrand,
                        int foodProductQuantity, double foodProductPrice,
                        double foodProductWeight, double foodProductVolume) {
@@ -25,10 +22,10 @@ public abstract class FoodProduct {
         this.foodProductVolume = foodProductVolume;
     }
 
-    public void addFoodProduct(String foodProductClass, String foodProductType, String foodProductBrand,
-                                        int foodProductQuantity, double foodProductPrice,
-                                        double foodProductWeight, double foodProductVolume) {
-            }
+    public String getFoodProductClass() {
+
+        return foodProductClass;
+    }
 
     public String getFoodProductType() {
 
@@ -60,10 +57,7 @@ public abstract class FoodProduct {
         this.foodProductQuantity = foodProductQuantity;
     }
 
-    public void addFoodProductQuantity(int foodProductQuantity) {
 
-        this.foodProductQuantity = this.foodProductQuantity + foodProductQuantity;
-    }
 
     public double getFoodProductPrice() {
 

@@ -1,2 +1,2 @@
-Ground; Tchibo Family; 18960; 5.7; 500.0; 1.2E-3;
-Ground; Lavazza Сaffe Espresso; 6100; 500.0; 15.1; 1.3E-3
+Ground; Tchibo Family; 18960; 4.7; 500.0; 1.2E-3;
+Ground; Lavazza Caffe Espresso; 6100; 15.1; 500.0; 1.3E-3

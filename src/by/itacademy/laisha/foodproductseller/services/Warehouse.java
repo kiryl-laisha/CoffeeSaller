@@ -3,14 +3,21 @@ package by.itacademy.laisha.foodproductseller.services;
 import by.itacademy.laisha.foodproductseller.entities.*;
 import by.itacademy.laisha.foodproductseller.utils.*;
 
+import java.util.ArrayList;
+
 public class Warehouse {
 
-    //
-    public static void loadWarehouseDatabase() {
-        // tea.loadTeaDatabase(); will be used to expand the program
-        // water.loadWaterDatabase(); will be used to expand the program
-        Coffee.loadCoffeeDatabase();
-        ScreenUtils.printFramedString("Warehouse database has been loaded.");
+    private static ArrayList<Coffee> coffees;
+
+    public static void loadWarehouseDatabases() {
+
+        Logger.log("Entered the method Warehouse.loadWarehouseDatabases();");
+        WarehouseUtils.loadFoodProductDatabases();
+        coffees = WarehouseUtils.getCoffees();
+        ScreenUtils.printString("The warehouse databases have been loaded;");
+        ScreenUtils.printStrip();
+        Logger.log("The warehouse databases have been loaded;\n" +
+                "Exited the method Warehouse.loadWarehouseDatabases();");
     }
 }
 

@@ -1,27 +1,29 @@
 package by.itacademy.laisha.foodproductseller.entities;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public abstract class Vehicle {
 
+    private static final String TRANSPORT_CLASS = "Vehicle";
+    private String vehicleType;
     private String vehicleBrand;
     private String vehicleModel;
     private String vehicleRegisterSign;
-    private double vehicleVolume;
-    private boolean availability;
+    private boolean vehicleAvailability;
 
-    private static List<Vehicle> vehicles = new ArrayList<>();
-
-    public Vehicle() {
-    }
-
-    public Vehicle(String vehicleBrand, String vehicleModel, String vehicleRegisterSign, double vehicleVolume) {
+    public Vehicle(String vehicleType, String vehicleBrand, String vehicleModel,
+                   String vehicleRegisterSign, boolean vehicleAvailability) {
+        this.vehicleType = vehicleType;
         this.vehicleBrand = vehicleBrand;
         this.vehicleModel = vehicleModel;
         this.vehicleRegisterSign = vehicleRegisterSign;
-        this.vehicleVolume = vehicleVolume;
-        availability = true;
+        this.vehicleAvailability = vehicleAvailability;
+    }
+
+    public static String getTransportClass() {
+        return TRANSPORT_CLASS;
+    }
+
+    public String getVehicleType() {
+        return vehicleType;
     }
 
     public void setVehicleBrand(String vehicleBrand) {
@@ -32,7 +34,7 @@ public abstract class Vehicle {
         return this.vehicleBrand;
     }
 
-    public void setVehicleModel(String vehicleBrand) {
+    public void setVehicleModel(String vehicleModel) {
         this.vehicleModel = vehicleModel;
     }
 
@@ -48,19 +50,12 @@ public abstract class Vehicle {
         return this.vehicleRegisterSign;
     }
 
-    public void setVehicleVolume(double vehicleVolume) {
-        this.vehicleVolume = vehicleVolume;
+    public void setVehicleAvailability(boolean vehicleAvailability) {
+        this.vehicleAvailability = vehicleAvailability;
     }
 
-    public double getVehicleVolume() {
-        return this.vehicleVolume;
+    public boolean getVehicleAvailability() {
+        return this.vehicleAvailability;
     }
 
-    public void setAvailability(boolean availability) {
-        this.availability = availability;
-    }
-
-    public boolean getAvailability() {
-        return this.availability;
-    }
 }

@@ -3,19 +3,20 @@ package by.itacademy.laisha.foodproductseller.services;
 import by.itacademy.laisha.foodproductseller.entities.*;
 import by.itacademy.laisha.foodproductseller.utils.*;
 
+import java.util.ArrayList;
+
 public class Transport {
 
-    private static CargoVan cargoVan = new CargoVan();
-    private static ScreenUtils screen = new ScreenUtils();
+    private static ArrayList <Cargovan> cargovans = new ArrayList<>();
 
-    public Transport() {
-    }
+    public static void loadTransportDatabases() {
 
-    public void loadTransportDatabase() { //emulation
-        //miniVan.loadMiniVanDatabase(); will be used to expand the program
-        //car.loadCarDatabase(); will be used to expand the program
-        cargoVan.loadCargoVanDataBase();
-        screen.printString("Transport database had loaded.");
+        Logger.log("Entered the method Transport.loadTransportDatabases();");
+        TransportUtils.loadVehiclesDatabases();
+        cargovans = TransportUtils.getCargovans();
+        ScreenUtils.printString("The transport databases have been loaded;");
+        Logger.log("The transport databases have been loaded;\n" +
+                "Exited the method Transport.loadTransportDatabases();");
     }
 }
 

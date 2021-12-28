@@ -8,6 +8,13 @@ public final class Seller {
 
     public static void main(String[] args) {
 
+        // databases loading
+        Manager.loadDatabases();
+        // working in main menu
+        Manager.workInMainMenu();
+
+
+        Logger.log("Entered the method Seller.main();");
         //Account initialization
         try {
             if (AccountInitialization.initializeAccount()) {
@@ -17,8 +24,10 @@ public final class Seller {
                 Manager.workInMainMenu(); // TODO use boolean
             }
         } catch (Exception exception) {  //TODO set the necessary exception (NoSuchElementException?)
-            Logger.log("Main menu or account authorization error.");
-            System.out.println("System error, restart, please.");
+            Logger.log("Main menu or account authorization error;");
+            System.out.println("System error, restart, please;");
         }
+
+
     }
 }

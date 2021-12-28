@@ -1,2 +1,2 @@
-Instant; Dallmayr Prodomo; 130500; 0.3; 2.0; 1.0E-5;
-Instant; Jacobs monarch; 28750; 0.2; 2.1; 1.0E-5
+Instant; Barista Mio; 18350; 8.9; 190.0; 1.3E-3;
+Instant; Lavazza Crema E Gusto; 16100; 6.1; 100.0; 0.7E-3
