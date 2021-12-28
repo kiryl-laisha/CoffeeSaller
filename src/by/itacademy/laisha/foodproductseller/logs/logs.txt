@@ -1,0 +1,436 @@
+2021-12-28 21:46:54
+Entered the method Seller.main();
+2021-12-28 21:46:54
+Entered the method AccountInitialization.initializeAccount();
+2021-12-28 21:46:54
+Entered the method AccountDatabase.loadAccountsDatabase();
+2021-12-28 21:46:54
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:46:54
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:46:54
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:46:54
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:46:54
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:46:54
+The account database has been loaded.
+2021-12-28 21:46:54
+Exited the method AccountDatabase.loadAccountsDatabase();
+2021-12-28 21:46:54
+Entered the method AccountInitialization.authorizeUser();
+2021-12-28 21:46:54
+Entered the method AccountInitialization.checkUserAccountLoginValidness();
+2021-12-28 21:46:54
+Entered the method AccountInitialization.getUserAccountLogin();
+2021-12-28 21:47:03
+Exited the method AccountInitialization.getUserAccountLogin();
+2021-12-28 21:47:03
+Entered the method AccountDatabase.checkUserAccountLoginValidness(), without log "Exited";
+2021-12-28 21:47:03
+Exited the method AccountInitialization.checkUserAccountLoginValidness();
+2021-12-28 21:47:03
+Entered the method AccountInitialization.checkUserAccountPasswordValidness();
+2021-12-28 21:47:03
+Entered the method AccountInitialization.getUserAccountPassword();
+2021-12-28 21:47:09
+Exited the method AccountInitialization.getUserAccountPassword();
+2021-12-28 21:47:09
+Entered the method AccountDatabase.checkUserAccountPasswordValidness();
+2021-12-28 21:47:09
+Entered the method Account.getUserAccountPassword(), without log "Exited";
+2021-12-28 21:47:09
+Exited the method AccountDatabase.checkUserAccountPasswordValidness();
+2021-12-28 21:47:09
+Exited the method AccountInitialization.checkUserAccountPasswordValidness();
+2021-12-28 21:47:09
+Exited the method AccountInitialization.authorizeUser();
+2021-12-28 21:47:09
+Entered the method Account.getUserAccountName(), without log "Exited";
+2021-12-28 21:47:09
+Exited the method AccountInitialization.initializeAccount();
+2021-12-28 21:47:09
+Entered the method Manager.loadDatabases();
+2021-12-28 21:47:09
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:47:09
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:47:09
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:47:09
+The coffee database has been loaded;
+2021-12-28 21:47:09
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:47:09
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:47:09
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:47:09
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 21:47:09
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 21:47:09
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:47:09
+The cargovans database has been loaded;
+2021-12-28 21:47:09
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:47:09
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 21:47:09
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 21:47:09
+Exited the method Manager.loadDatabases();
+2021-12-28 21:47:09
+Entered the method Manager.workInMainMenu();
+2021-12-28 21:47:09
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 21:47:12
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:47:12
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 21:47:13
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:47:13
+Entered the method WarehouseUtils.formOrder();
+2021-12-28 21:47:13
+Main menu or account authorization error;
+2021-12-28 21:47:13
+Exited the method Seller.main();
+2021-12-28 21:49:28
+Entered the method Seller.main();
+2021-12-28 21:49:28
+Entered the method AccountInitialization.initializeAccount();
+2021-12-28 21:49:28
+Entered the method AccountDatabase.loadAccountsDatabase();
+2021-12-28 21:49:28
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:49:28
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:49:28
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:49:28
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:49:28
+Entered the method Account.getUserAccountLogin(), without log "Exited";
+2021-12-28 21:49:28
+The account database has been loaded.
+2021-12-28 21:49:28
+Exited the method AccountDatabase.loadAccountsDatabase();
+2021-12-28 21:49:28
+Entered the method AccountInitialization.authorizeUser();
+2021-12-28 21:49:28
+Entered the method AccountInitialization.checkUserAccountLoginValidness();
+2021-12-28 21:49:28
+Entered the method AccountInitialization.getUserAccountLogin();
+2021-12-28 21:49:55
+Entered the method Manager.loadDatabases();
+2021-12-28 21:49:55
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:49:55
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:49:55
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:49:55
+The coffee database has been loaded;
+2021-12-28 21:49:55
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:49:55
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:49:55
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:49:55
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 21:49:55
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 21:49:55
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:49:55
+The cargovans database has been loaded;
+2021-12-28 21:49:55
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:49:55
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 21:49:55
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 21:49:55
+Exited the method Manager.loadDatabases();
+2021-12-28 21:49:55
+Entered the method Manager.workInMainMenu();
+2021-12-28 21:49:55
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 21:49:57
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:49:57
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 21:49:59
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:49:59
+Entered the method WarehouseUtils.formOrder();
+2021-12-28 21:51:22
+Entered the method Manager.loadDatabases();
+2021-12-28 21:51:22
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:51:22
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:51:22
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:51:22
+The coffee database has been loaded;
+2021-12-28 21:51:22
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:51:22
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:51:22
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:51:22
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 21:51:22
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 21:51:22
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:51:22
+The cargovans database has been loaded;
+2021-12-28 21:51:22
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:51:22
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 21:51:22
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 21:51:22
+Exited the method Manager.loadDatabases();
+2021-12-28 21:51:22
+Entered the method Manager.workInMainMenu();
+2021-12-28 21:51:22
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 21:51:23
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:51:23
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 21:51:24
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:51:24
+Entered the method WarehouseUtils.formOrder();
+2021-12-28 21:51:24
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:51:24
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:51:24
+Entered the method MenuUtils.getSelectedItem(), number of item = 8;
+2021-12-28 21:52:26
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:52:26
+Entered the method MenuUtils.getChosenPositionQuantity();
+2021-12-28 21:52:32
+Exited the method MenuUtils.getChosenPositionQuantity();
+2021-12-28 21:53:01
+Entered the method Manager.loadDatabases();
+2021-12-28 21:53:01
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:53:01
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:53:01
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:53:01
+The coffee database has been loaded;
+2021-12-28 21:53:01
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:53:01
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:53:01
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:53:01
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 21:53:01
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 21:53:01
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:53:01
+The cargovans database has been loaded;
+2021-12-28 21:53:01
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:53:01
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 21:53:01
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 21:53:01
+Exited the method Manager.loadDatabases();
+2021-12-28 21:53:01
+Entered the method Manager.workInMainMenu();
+2021-12-28 21:53:01
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 21:53:03
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:53:03
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 21:53:04
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:53:04
+Entered the method WarehouseUtils.formOrder();
+2021-12-28 21:53:04
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:53:04
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:53:04
+Entered the method MenuUtils.getSelectedItem(), number of item = 8;
+2021-12-28 21:53:07
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:53:07
+Entered the method MenuUtils.getChosenPositionQuantity();
+2021-12-28 21:53:10
+Exited the method MenuUtils.getChosenPositionQuantity();
+2021-12-28 21:53:10
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:53:10
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:53:10
+Entered the method MenuUtils.getSelectedItem(), number of item = 8;
+2021-12-28 21:54:58
+Entered the method Manager.loadDatabases();
+2021-12-28 21:54:58
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:54:58
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:54:58
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:54:58
+The coffee database has been loaded;
+2021-12-28 21:54:58
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:54:58
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:54:58
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:54:58
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 21:54:58
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 21:54:58
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:54:58
+The cargovans database has been loaded;
+2021-12-28 21:54:58
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:54:58
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 21:54:58
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 21:54:58
+Exited the method Manager.loadDatabases();
+2021-12-28 21:54:58
+Entered the method Manager.workInMainMenu();
+2021-12-28 21:54:58
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 21:55:02
+Entered the method Manager.loadDatabases();
+2021-12-28 21:55:02
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:55:02
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:55:02
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:55:02
+The coffee database has been loaded;
+2021-12-28 21:55:02
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 21:55:02
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 21:55:03
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 21:55:03
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 21:55:03
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 21:55:03
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:55:03
+The cargovans database has been loaded;
+2021-12-28 21:55:03
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 21:55:03
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 21:55:03
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 21:55:03
+Exited the method Manager.loadDatabases();
+2021-12-28 21:55:03
+Entered the method Manager.workInMainMenu();
+2021-12-28 21:55:03
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 21:55:05
+The entered string does not contain a parsable integer;
+2021-12-28 21:55:06
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:55:06
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 21:55:09
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:55:09
+Entered the method WarehouseUtils.formOrder();
+2021-12-28 21:55:09
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:55:09
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:55:09
+Entered the method MenuUtils.getSelectedItem(), number of item = 8;
+2021-12-28 21:55:12
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:55:12
+Entered the method MenuUtils.getChosenPositionQuantity();
+2021-12-28 21:55:15
+Exited the method MenuUtils.getChosenPositionQuantity();
+2021-12-28 21:55:15
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:55:15
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:55:15
+Entered the method MenuUtils.getSelectedItem(), number of item = 8;
+2021-12-28 21:55:19
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 21:55:19
+Entered the method MenuUtils.getChosenPositionQuantity();
+2021-12-28 21:55:22
+Exited the method MenuUtils.getChosenPositionQuantity();
+2021-12-28 21:55:22
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:55:22
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 21:55:22
+Entered the method MenuUtils.getSelectedItem(), number of item = 8;

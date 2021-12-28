@@ -138,10 +138,7 @@ public class Manager {
                                                     "has not been developed yet.");
                                             break;
                                         case 4:
-                                            ScreenUtils.printStrip();
-                                            ScreenUtils.printString("Unfortunately, a menu \"Form an order\" " +
-                                                    "has not been developed yet.");
-                                            //WarehouseUtils.formOrder();
+                                            WarehouseUtils.formOrder();
                                             break;
                                         case 5:
                                             break mainMenu;

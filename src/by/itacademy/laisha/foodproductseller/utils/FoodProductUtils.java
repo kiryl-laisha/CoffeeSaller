@@ -15,7 +15,6 @@ public final class FoodProductUtils {
 
     private static ArrayList<Coffee> coffees;
     private static ArrayList<Coffee> sortedCoffees;
-    private static ArrayList<Coffee> orderedcoffees;
     private static ArrayList<String> coffeeTypes;
 
     public static ArrayList<Coffee> loadCoffeeDatabase() {
@@ -122,12 +121,12 @@ public final class FoodProductUtils {
                 ScreenUtils.printMenuForChoiceSortingType(sortingTypeName);
                 switch (MenuUtils.getSelectedItem(3)) {
                     case 1:
-                        sortAscendingCoffeePositionsByChoicedSortingType(sortingTypeName);
+                        sortAscendingCoffeePositionsByChosenSortingType(sortingTypeName);
                         ScreenUtils.printCoffeesTable(" The sorting class " +
                                 "\"Coffee\"" + sortingTypeName + " ascending.", sortedCoffees);
                         break;
                     case 2:
-                        sortDescendingCoffeePositionsByChoicedSortingType(sortingTypeName);
+                        sortDescendingCoffeePositionsByChosenSortingType(sortingTypeName);
                         ScreenUtils.printCoffeesTable(" The sorting class " +
                                 "\"Coffee\"" + sortingTypeName + " descending.", sortedCoffees);
                         break;
@@ -139,44 +138,68 @@ public final class FoodProductUtils {
         Logger.log("Exited the method FoodProductUtils.sortCoffeePositionsByTypes();");
     }
 
-    private static void sortAscendingCoffeePositionsByChoicedSortingType(String sortingTypeName) {
+    private static void sortAscendingCoffeePositionsByChosenSortingType(String sortingTypeName) {
 
-        Logger.log("Entered the method FoodProductUtils.sortAscendingCoffeePositions();");
+        Logger.log("Entered the method FoodProductUtils.sortAscendingCoffeePositionsByChosenSortingType();");
         switch (sortingTypeName) {
-            case "types" -> sortedCoffees.sort(Comparator.comparing(
-                    FoodProduct::getFoodProductType));
-            case "position brands" -> sortedCoffees.sort(Comparator.comparing(
-                    FoodProduct::getFoodProductBrand));
-            case "position quantities" -> sortedCoffees.sort(Comparator.comparingInt(
-                    FoodProduct::getFoodProductQuantity));
-            case "position prices" -> sortedCoffees.sort(Comparator.comparingDouble(
-                    FoodProduct::getFoodProductPrice));
-            case "position weights" -> sortedCoffees.sort(Comparator.comparingDouble(
-                    FoodProduct::getFoodProductWeight));
-            case "position volumes" -> sortedCoffees.sort(Comparator.comparingDouble(
-                    FoodProduct::getFoodProductVolume));
+            case "types":
+                sortedCoffees.sort(Comparator.comparing(
+                        FoodProduct::getFoodProductType));
+                break;
+            case "position brands":
+                sortedCoffees.sort(Comparator.comparing(
+                        FoodProduct::getFoodProductBrand));
+                break;
+            case "position quantities":
+                sortedCoffees.sort(Comparator.comparingInt(
+                        FoodProduct::getFoodProductQuantity));
+                break;
+            case "position prices":
+                sortedCoffees.sort(Comparator.comparingDouble(
+                        FoodProduct::getFoodProductPrice));
+                break;
+            case "position weights":
+                sortedCoffees.sort(Comparator.comparingDouble(
+                        FoodProduct::getFoodProductWeight));
+                break;
+            case "position volumes":
+                sortedCoffees.sort(Comparator.comparingDouble(
+                        FoodProduct::getFoodProductVolume));
+                break;
         }
-        Logger.log("Exited the method FoodProductUtils.sortAscendingCoffeePositions();");
+        Logger.log("Exited the method FoodProductUtils.sortAscendingCoffeePositionsByChosenSortingType();");
     }
 
-    private static void sortDescendingCoffeePositionsByChoicedSortingType(String sortingTypeName) {
+    private static void sortDescendingCoffeePositionsByChosenSortingType(String sortingTypeName) {
 
-        Logger.log("Entered the method FoodProductUtils.sortDescendingCoffeePositions();");
+        Logger.log("Entered the method FoodProductUtils.sortDescendingCoffeePositionsByChosenSortingType();");
         switch (sortingTypeName) {
-            case "types" -> sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
-                    secondCoffee.getFoodProductType().compareTo(firstCoffee.getFoodProductType()));
-            case "position brands" -> sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
-                    secondCoffee.getFoodProductBrand().compareTo(firstCoffee.getFoodProductBrand()));
-            case "position quantities" -> sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
-                    Integer.compare(secondCoffee.getFoodProductQuantity(), firstCoffee.getFoodProductQuantity()));
-            case "position prices" -> sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
-                    Double.compare(secondCoffee.getFoodProductPrice(), firstCoffee.getFoodProductPrice()));
-            case "position weights" -> sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
-                    Double.compare(secondCoffee.getFoodProductWeight(), firstCoffee.getFoodProductWeight()));
-            case "position volumes" -> sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
-                    Double.compare(secondCoffee.getFoodProductVolume(), firstCoffee.getFoodProductVolume()));
+            case "types":
+                sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
+                        secondCoffee.getFoodProductType().compareTo(firstCoffee.getFoodProductType()));
+                break;
+            case "position brands":
+                sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
+                        secondCoffee.getFoodProductBrand().compareTo(firstCoffee.getFoodProductBrand()));
+                break;
+            case "position quantities":
+                sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
+                        Integer.compare(secondCoffee.getFoodProductQuantity(), firstCoffee.getFoodProductQuantity()));
+                break;
+            case "position prices":
+                sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
+                        Double.compare(secondCoffee.getFoodProductPrice(), firstCoffee.getFoodProductPrice()));
+                break;
+            case "position weights":
+                sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
+                        Double.compare(secondCoffee.getFoodProductWeight(), firstCoffee.getFoodProductWeight()));
+                break;
+            case "position volumes":
+                sortedCoffees.sort((Coffee firstCoffee, Coffee secondCoffee) ->
+                        Double.compare(secondCoffee.getFoodProductVolume(), firstCoffee.getFoodProductVolume()));
+                break;
         }
-        Logger.log("Exited the method FoodProductUtils.sortDescendingCoffeePositions();");
+        Logger.log("Exited the method FoodProductUtils.sortDescendingCoffeePositionsByChosenSortingType();");
     }
 }
 

@@ -1,5 +1,8 @@
 package by.itacademy.laisha.foodproductseller.utils;
 
+import by.itacademy.laisha.foodproductseller.entities.Coffee;
+
+import java.util.ArrayList;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 import java.util.regex.Pattern;
@@ -254,6 +257,37 @@ public class MenuUtils {
         }
         Logger.log("Exited the method MenuUtils.getNewPositionAvailability();");
         return newPositionAvailability;
+    }
+
+    public static int getChosenPositionQuantity(int selectedPositionItem, ArrayList<Coffee> remainingCoffees) {
+
+        String selectedPositionQuantity = "";
+
+        Logger.log("Entered the method MenuUtils.getChosenPositionQuantity();");
+        try {
+            do {
+                ScreenUtils.printFramedString("Enter a quantity of the chosen position (things), please:\n" +
+                        "(for back enter 0)");
+                selectedPositionQuantity = scanner.nextLine();
+                if (Pattern.matches("[0-9]+", selectedPositionQuantity)) {
+                    if (Integer.parseInt(selectedPositionQuantity) <=
+                            (remainingCoffees.get(selectedPositionItem - 1).getFoodProductQuantity())) {
+                        break;
+                    } else {
+                        ScreenUtils.printFramedString("You have chosen " +
+                                "the quantity of this position more then there is in a warehouse:");
+                    }
+                } else {
+                    ScreenUtils.printFramedString("Allowed to use only arabic numbers.");
+                }
+            } while (true);
+        } catch (NoSuchElementException noSuchElementException) {
+            ScreenUtils.printString("A quantity string has not been found.");
+            Logger.log("A quantity string has been read failed;");
+        }
+        Logger.log("Exited the method MenuUtils.getChosenPositionQuantity();");
+        return Integer.parseInt(selectedPositionQuantity);
+
     }
 }
 

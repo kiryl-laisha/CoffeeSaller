@@ -8,6 +8,9 @@ public class WarehouseUtils {
 
     private static ArrayList<Coffee> coffees;
 
+    private static ArrayList<Coffee> orderedCoffees;
+    private static ArrayList<Coffee> remainingCoffees;
+
     public WarehouseUtils() {
     }
 
@@ -31,6 +34,27 @@ public class WarehouseUtils {
     public static void formOrder() {
 
         Logger.log("Entered the method WarehouseUtils.formOrder();");
-        ScreenUtils.printCoffeesTable("\" The class \"Coffee\" positions.\"", WarehouseUtils.getCoffees());
+        remainingCoffees = new ArrayList<>();
+        orderedCoffees = new ArrayList<>();
+        remainingCoffees.addAll(getCoffees());
+        do {
+
+
+            ScreenUtils.printCoffeesTable(" The class \"Coffee\" remaining positions.", remainingCoffees);
+            ScreenUtils.printFramedString(" Please select the position item you want to add to the order:");
+            int selectedPositionItem = MenuUtils.getSelectedItem(remainingCoffees.size());
+            int selectedPositionQuantity = MenuUtils.getChosenPositionQuantity(selectedPositionItem, remainingCoffees);
+            if (selectedPositionQuantity != 0) {
+                orderedCoffees.add(new Coffee(remainingCoffees.get(selectedPositionItem - 1).getFoodProductType(),
+                        remainingCoffees.get(selectedPositionItem - 1).getFoodProductBrand(),
+                        selectedPositionQuantity,
+                        remainingCoffees.get(selectedPositionItem - 1).getFoodProductPrice(),
+                        remainingCoffees.get(selectedPositionItem - 1).getFoodProductWeight(),
+                        remainingCoffees.get(selectedPositionItem - 1).getFoodProductVolume()));
+                remainingCoffees.get(selectedPositionItem - 1).setFoodProductQuantity
+                        (remainingCoffees.get(selectedPositionItem - 1).getFoodProductQuantity() - selectedPositionQuantity);
+            }
+        } while (true);
+        //choicePositionForOrder();
     }
 }
