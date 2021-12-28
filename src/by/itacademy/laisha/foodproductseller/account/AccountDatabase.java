@@ -18,6 +18,7 @@ public class AccountDatabase {
 
     public void loadAccountsDatabase() {
 
+        Logger.log("Entered the method AccountDatabase.loadAccountsDatabase();");
         Scanner scanner = null;
         try {
             scanner = new Scanner(new BufferedReader(new FileReader(ACCOUNTS_DATABASE_INPUT_FILE_NAME)));
@@ -40,19 +41,25 @@ public class AccountDatabase {
                 scanner.close();
             }
         }
+        Logger.log("Exited the method AccountDatabase.loadAccountsDatabase();");
     }
 
     public static boolean checkUserAccountLoginValidness(String userAccountLogin) {
+
+        Logger.log("Entered the method AccountDatabase.checkUserAccountLoginValidness(), without log \"Exited\";");
         return accounts.containsKey(userAccountLogin);
     }
 
     public boolean checkUserAccountPasswordValidness(String accountUserLogin, String accountUserPassword) {
 
         boolean resultOfCheckAccountPasswordValidness = false;
+
+        Logger.log("Entered the method AccountDatabase.checkUserAccountPasswordValidness();");
         account = accounts.get(accountUserLogin);
         if (accountUserPassword.equals(account.getUserAccountPassword())) {
             resultOfCheckAccountPasswordValidness = true;
         }
+        Logger.log("Exited the method AccountDatabase.checkUserAccountPasswordValidness();");
         return resultOfCheckAccountPasswordValidness;
     }
 
@@ -76,16 +83,19 @@ public class AccountDatabase {
 
         public String getUserAccountLogin() {
 
+            Logger.log("Entered the method Account.getUserAccountLogin(), without log \"Exited\";");
             return accountUserLogin;
         }
 
         public void setUserAccountLogin(String accountUserLogin) {
 
+            Logger.log("Entered the method Account.setUserAccountLogin(), without log \"Exited\";");
             this.accountUserLogin = accountUserLogin;
         }
 
         public String getUserAccountPassword() {
 
+            Logger.log("Entered the method Account.getUserAccountPassword(), without log \"Exited\";");
             return accountUserPassword;
         }
 
@@ -97,42 +107,51 @@ public class AccountDatabase {
          */
         public boolean setUserAccountPassword(String accountUserPassword, String newAccountUserPassword) {
 
+            boolean newPasswordSetting = false;
+
+            Logger.log("Entered the method Account.getUserAccountID();");
             if (accountUserPassword.equals(this.accountUserPassword) &&
                     !accountUserPassword.equals(newAccountUserPassword)) {
                 this.accountUserPassword = newAccountUserPassword;
-                return true;
-            } else {
-                return false;
+                newPasswordSetting = true;
             }
+            Logger.log("Exited the method AccountDatabase.setUserAccountPassword();");
+            return newPasswordSetting;
         }
 
         public String getUserAccountID() {
 
+            Logger.log("Entered the method Account.getUserAccountID(), without log \"Exited\";");
             return accountUserID;
         }
 
         public void setUserAccountID(String accountUserID) {
 
+            Logger.log("Entered the method Account.setUserAccountID(), without log \"Exited\";");
             this.accountUserID = accountUserID;
         }
 
         public String getUserAccountName() {
 
+            Logger.log("Entered the method Account.getUserAccountName(), without log \"Exited\";");
             return account.accountUserName;
         }
 
         public void setUserAccountName(String accountUserName) {
 
+            Logger.log("Entered the method Account.setUserAccountName(), without log \"Exited\";");
             this.accountUserName = accountUserName;
         }
 
         public String getUserAccountSurname() {
 
+            Logger.log("Entered the method Account.getUserAccountSurname(), without log \"Exited\";");
             return accountUserSurname;
         }
 
         public void setUserAccountSurname(String accountUserSurname) {
 
+            Logger.log("Entered the method Account.setUserAccountSurname(), without log \"Exited\";");
             this.accountUserSurname = accountUserSurname;
         }
     }

@@ -57,5 +57,4 @@ public abstract class Vehicle {
     public boolean getVehicleAvailability() {
         return this.vehicleAvailability;
     }
-
 }

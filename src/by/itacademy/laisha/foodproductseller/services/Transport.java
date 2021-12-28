@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class Transport {
 
-    private static ArrayList <Cargovan> cargovans = new ArrayList<>();
+    private static ArrayList<Cargovan> cargovans;
 
     public static void loadTransportDatabases() {
 

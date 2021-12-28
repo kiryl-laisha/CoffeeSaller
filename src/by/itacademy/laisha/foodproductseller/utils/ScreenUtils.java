@@ -16,6 +16,7 @@ public class ScreenUtils {
     }
 
     public static void printFramedString(String string) {
+
         System.out.println("-".repeat(STRIP_WIDTH));
         System.out.println(string);
         System.out.println("-".repeat(STRIP_WIDTH));

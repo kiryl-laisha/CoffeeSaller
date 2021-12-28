@@ -24,13 +24,17 @@ public final class AccountInitialization {
     private static final AccountDatabase accountDatabase = new AccountDatabase();
 
     public static boolean initializeAccount() {
+
         boolean authorization;
+
+        Logger.log("Entered the method AccountInitialization.initializeAccount();");
         accountDatabase.loadAccountsDatabase();
         authorization = authorizeUser();
         if (authorization) {
             ScreenUtils.printFramedString(AccountDatabase.account.getUserAccountName() +
                     ", you have successfully logged in system!");
         }
+        Logger.log("Exited the method AccountInitialization.initializeAccount();");
         return authorization;
     }
 
@@ -38,6 +42,7 @@ public final class AccountInitialization {
 
         boolean AccountValidness = false;
 
+        Logger.log("Entered the method AccountInitialization.authorizeUser();");
         ScreenUtils.printFramedString("Welcome!");
         lbl:
         {
@@ -66,11 +71,13 @@ public final class AccountInitialization {
                     AccountValidness = true;
             }
         }
+        Logger.log("Exited the method AccountInitialization.authorizeUser();");
         return AccountValidness;
     }
 
     private static void checkUserAccountLoginValidness() {
 
+        Logger.log("Entered the method AccountInitialization.checkUserAccountLoginValidness();");
         do {
             loginAttemptCounter++;
             if (loginAttemptCounter == AUTHORIZATION_ATTEMPTS_COUNTER + 1) {
@@ -94,10 +101,12 @@ public final class AccountInitialization {
             ScreenUtils.printFramedString("The login has been accepted.");
             loginAttemptCounter--;
         }
+        Logger.log("Exited the method AccountInitialization.checkUserAccountLoginValidness();");
     }
 
     private static void getUserAccountLogin() {
 
+        Logger.log("Entered the method AccountInitialization.getUserAccountLogin();");
         try {
             do {
                 ScreenUtils.printString("Enter your login, please: (for example - \"ivanov\")\n" +
@@ -126,10 +135,12 @@ public final class AccountInitialization {
             ScreenUtils.printString("Login string has not been found");
             Logger.log("Login string has been read failed.");
         }
+        Logger.log("Exited the method AccountInitialization.getUserAccountLogin();");
     }
 
     private static void checkUserAccountPasswordValidness() {
 
+        Logger.log("Entered the method AccountInitialization.checkUserAccountPasswordValidness();");
         do {
             passwordAttemptCounter++;
             if (passwordAttemptCounter == AUTHORIZATION_ATTEMPTS_COUNTER + 1) {
@@ -157,10 +168,12 @@ public final class AccountInitialization {
             ScreenUtils.printStrip();
             ScreenUtils.printString("The password has been accepted.");
         }
+        Logger.log("Exited the method AccountInitialization.checkUserAccountPasswordValidness();");
     }
 
     private static void getUserAccountPassword() {
 
+        Logger.log("Entered the method AccountInitialization.getUserAccountPassword();");
         try {
             do {
                 ScreenUtils.printString("Enter your password, please: (for example - \"11111QQqq)\")\n" +
@@ -171,7 +184,7 @@ public final class AccountInitialization {
                 }
                 if (userAccountPassword.length() >= PASSWORD_MINIMUM_LENGTH &&
                         userAccountPassword.length() <= PASSWORD_MAXIMUM_LENGTH) {
-                    if (Pattern.matches(".*\\d+.*", userAccountPassword) && //TODO  optimaize (regex)
+                    if (Pattern.matches(".*\\d+.*", userAccountPassword) && //TODO  optimize (regex)
                             Pattern.matches(".*\\p{Upper}+.*", userAccountPassword) &&
                             Pattern.matches(".*\\p{Lower}+.*", userAccountPassword) &&
                             Pattern.matches(".*\\p{Punct}*.*", userAccountPassword)) {
@@ -192,6 +205,7 @@ public final class AccountInitialization {
             ScreenUtils.printString("Password string has not been found");
             Logger.log("Password string has been read failed.");
         }
+        Logger.log("Exited the method AccountInitialization.getUserAccountPassword();");
     }
 }
 

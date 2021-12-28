@@ -15,9 +15,5 @@ public class Coffee extends FoodProduct implements Comparable<Coffee> {
 
         return this.getFoodProductType().compareTo(coffee.getFoodProductType());
     }
-
-    public static int compareByBrands(Coffee firstCoffee, Coffee secondCoffee) {
-        return secondCoffee.getFoodProductType().compareTo(firstCoffee.getFoodProductType());
-    }
 }
 

@@ -74,8 +74,7 @@ public final class FoodProductUtils {
     }
 
     public static ArrayList<String> getCoffeeTypes() {
-        ArrayList<String> copyCoffeeTypes = new ArrayList<>(coffeeTypes);
-        return copyCoffeeTypes;
+        return new ArrayList<>(coffeeTypes);
     }
 
     public static void addFoodProductPosition(String productClass) {
@@ -123,12 +122,12 @@ public final class FoodProductUtils {
                 ScreenUtils.printMenuForChoiceSortingType(sortingTypeName);
                 switch (MenuUtils.getSelectedItem(3)) {
                     case 1:
-                        sortAscendingCoffeePositions(sortingTypeName);
+                        sortAscendingCoffeePositionsByChoicedSortingType(sortingTypeName);
                         ScreenUtils.printCoffeesTable(" The sorting class " +
                                 "\"Coffee\"" + sortingTypeName + " ascending.", sortedCoffees);
                         break;
                     case 2:
-                        sortDescendingCoffeePositions(sortingTypeName);
+                        sortDescendingCoffeePositionsByChoicedSortingType(sortingTypeName);
                         ScreenUtils.printCoffeesTable(" The sorting class " +
                                 "\"Coffee\"" + sortingTypeName + " descending.", sortedCoffees);
                         break;
@@ -140,7 +139,7 @@ public final class FoodProductUtils {
         Logger.log("Exited the method FoodProductUtils.sortCoffeePositionsByTypes();");
     }
 
-    private static void sortAscendingCoffeePositions(String sortingTypeName) {
+    private static void sortAscendingCoffeePositionsByChoicedSortingType(String sortingTypeName) {
 
         Logger.log("Entered the method FoodProductUtils.sortAscendingCoffeePositions();");
         switch (sortingTypeName) {
@@ -160,7 +159,7 @@ public final class FoodProductUtils {
         Logger.log("Exited the method FoodProductUtils.sortAscendingCoffeePositions();");
     }
 
-    private static void sortDescendingCoffeePositions(String sortingTypeName) {
+    private static void sortDescendingCoffeePositionsByChoicedSortingType(String sortingTypeName) {
 
         Logger.log("Entered the method FoodProductUtils.sortDescendingCoffeePositions();");
         switch (sortingTypeName) {

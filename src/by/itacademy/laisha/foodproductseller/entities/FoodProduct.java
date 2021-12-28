@@ -57,8 +57,6 @@ public abstract class FoodProduct {
         this.foodProductQuantity = foodProductQuantity;
     }
 
-
-
     public double getFoodProductPrice() {
 
         return foodProductPrice;

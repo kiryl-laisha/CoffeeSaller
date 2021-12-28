@@ -8,26 +8,19 @@ public final class Seller {
 
     public static void main(String[] args) {
 
-        // databases loading
-        Manager.loadDatabases();
-        // working in main menu
-        Manager.workInMainMenu();
-
-
-        Logger.log("Entered the method Seller.main();");
+       Logger.log("Entered the method Seller.main();");
         //Account initialization
         try {
             if (AccountInitialization.initializeAccount()) {
                 // databases loading
                 Manager.loadDatabases();
                 // working in main menu
-                Manager.workInMainMenu(); // TODO use boolean
+                Manager.workInMainMenu();
             }
         } catch (Exception exception) {  //TODO set the necessary exception (NoSuchElementException?)
             Logger.log("Main menu or account authorization error;");
             System.out.println("System error, restart, please;");
         }
-
-
+        Logger.log("Exited the method Seller.main();");
     }
 }

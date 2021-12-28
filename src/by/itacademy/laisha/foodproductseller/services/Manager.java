@@ -95,22 +95,28 @@ public class Manager {
                                                                                 " 7 - Back;");
                                                                 switch (MenuUtils.getSelectedItem(7)) {
                                                                     case 1:
-                                                                        FoodProductUtils.sortCoffeePositions("types");
+                                                                        FoodProductUtils.sortCoffeePositions(
+                                                                                "types");
                                                                         break;
                                                                     case 2:
-                                                                        FoodProductUtils.sortCoffeePositions("position brands");
+                                                                        FoodProductUtils.sortCoffeePositions(
+                                                                                "position brands");
                                                                         break;
                                                                     case 3:
-                                                                        FoodProductUtils.sortCoffeePositions("position quantities");
+                                                                        FoodProductUtils.sortCoffeePositions(
+                                                                                "position quantities");
                                                                         break;
                                                                     case 4:
-                                                                        FoodProductUtils.sortCoffeePositions("position prices");
+                                                                        FoodProductUtils.sortCoffeePositions(
+                                                                                "position prices");
                                                                         break;
                                                                     case 5:
-                                                                        FoodProductUtils.sortCoffeePositions("position weights");
+                                                                        FoodProductUtils.sortCoffeePositions(
+                                                                                "position weights");
                                                                         break;
                                                                     case 6:
-                                                                        FoodProductUtils.sortCoffeePositions("position volumes");
+                                                                        FoodProductUtils.sortCoffeePositions(
+                                                                                "position volumes");
                                                                         break;
                                                                     case 7:
                                                                         break coffeeMenu;
@@ -132,7 +138,10 @@ public class Manager {
                                                     "has not been developed yet.");
                                             break;
                                         case 4:
-                                            WarehouseUtils.formOrder();
+                                            ScreenUtils.printStrip();
+                                            ScreenUtils.printString("Unfortunately, a menu \"Form an order\" " +
+                                                    "has not been developed yet.");
+                                            //WarehouseUtils.formOrder();
                                             break;
                                         case 5:
                                             break mainMenu;
@@ -159,7 +168,7 @@ public class Manager {
                                                             " The type \"Cargovan\".\n" +
                                                                     " Please, choice your action:\n" +
                                                                     " 1 - View type positions;\n" +
-                                                                    " 2 - The type menu \"Adding\";\n" +
+                                                                    " 2 - The type menu \"Adding\" and \"Editing\";\n" +
                                                                     " 3 - The type menu \"Sorting\";\n" +
                                                                     " 4 - Back;");
                                                     switch (MenuUtils.getSelectedItem(4)) {
@@ -171,7 +180,8 @@ public class Manager {
                                                         case 2:
                                                             while (true) {
                                                                 ScreenUtils.printFramedString(
-                                                                        " The type \"Cargovan\" menu \"Adding\".\n" +
+                                                                        " The type \"Cargovan\" menu " +
+                                                                                "\"Adding\" and \"Editing\".\n" +
                                                                                 " Please, choice your action:\n" +
                                                                                 " 1 - Add a new type position;\n" +
                                                                                 " 2 - Edit an exist type position;\n" +
