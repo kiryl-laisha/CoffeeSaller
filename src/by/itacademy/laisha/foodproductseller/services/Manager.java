@@ -1,16 +1,10 @@
 package by.itacademy.laisha.foodproductseller.services;
 
-import by.itacademy.laisha.foodproductseller.entities.Coffee;
 import by.itacademy.laisha.foodproductseller.enums.FoodProductClasses;
 import by.itacademy.laisha.foodproductseller.enums.VehicleTypes;
 import by.itacademy.laisha.foodproductseller.utils.*;
 
-import java.util.ArrayList;
-import java.util.Collections;
-
 public class Manager {
-
-    private static ArrayList<Coffee> coffees;
 
     // loading of databases
     public static void loadDatabases() {
@@ -101,22 +95,22 @@ public class Manager {
                                                                                 " 7 - Back;");
                                                                 switch (MenuUtils.getSelectedItem(7)) {
                                                                     case 1:
-                                                                        sortCoffeePositionsByTypes();
+                                                                        FoodProductUtils.sortCoffeePositions("types");
                                                                         break;
                                                                     case 2:
-                                                                        sortCoffeePositionsByBrands();
+                                                                        FoodProductUtils.sortCoffeePositions("position brands");
                                                                         break;
                                                                     case 3:
-                                                                        sortCoffeePositionsByQuantities();
+                                                                        FoodProductUtils.sortCoffeePositions("position quantities");
                                                                         break;
                                                                     case 4:
-                                                                        sortCoffeePositionsByPrices();
+                                                                        FoodProductUtils.sortCoffeePositions("position prices");
                                                                         break;
                                                                     case 5:
-                                                                        sortCoffeePositionsByWeights();
+                                                                        FoodProductUtils.sortCoffeePositions("position weights");
                                                                         break;
                                                                     case 6:
-                                                                        sortCoffeePositionsByVolumes();
+                                                                        FoodProductUtils.sortCoffeePositions("position volumes");
                                                                         break;
                                                                     case 7:
                                                                         break coffeeMenu;
@@ -138,7 +132,7 @@ public class Manager {
                                                     "has not been developed yet.");
                                             break;
                                         case 4:
-                                            formOrder();
+                                            WarehouseUtils.formOrder();
                                             break;
                                         case 5:
                                             break mainMenu;
@@ -228,212 +222,6 @@ public class Manager {
             }
         }
         Logger.log("Exited the method Manager.workInMainMenu();");
-    }
-
-    private static void formOrder() {
-
-    }
-
-    private static void sortCoffeePositionsByTypes() {
-
-        Logger.log("Entered the method Manager.sortCoffeePositionsByTypes();");
-        sortingByTypes:
-        {
-            while (true) {
-                ScreenUtils.printFramedString(
-                        " Sort the class \"Coffee\".\n" +
-                                " Please, choice your action:\n" +
-                                " 1 - Sort the class types ascending;\n" +
-                                " 2 - Sort the class types descending;\n" +
-                                " 3 - Back;");
-                switch (MenuUtils.getSelectedItem(3)) {
-                    case 1:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees);
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" types ascending.", coffees);
-                        break;
-                    case 2:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees,
-                                new CoffeeTypesDesсendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" types descending.", coffees);
-                        break;
-                    case 3:
-                        break sortingByTypes;
-                }
-            }
-        }
-        Logger.log("Exited the method Manager.sortCoffeePositionsByTypes();");
-    }
-
-    private static void sortCoffeePositionsByBrands() {
-
-        Logger.log("Entered the method Manager.sortCoffeePositionsByBrands();");
-        sortingByBrands:
-        {
-            while (true) {
-                ScreenUtils.printFramedString(
-                        " Sort the class \"Coffee\".\n" +
-                                " Please, choice your action:\n" +
-                                " 1 - Sort the class positions brands ascending;\n" +
-                                " 2 - Sort the class positions brands descending;\n" +
-                                " 3 - Back;");
-                switch (MenuUtils.getSelectedItem(3)) {
-                    case 1:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees, new CoffeeBrandsAscendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" positions brands ascending.", coffees);
-                        break;
-                    case 2:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees, new CoffeeBrandsDescendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" positions brands descending.", coffees);
-                        break;
-                    case 3:
-                        break sortingByBrands;
-                }
-            }
-        }
-        Logger.log("Exited the method Manager.sortCoffeePositionsByBrands();");
-    }
-
-    private static void sortCoffeePositionsByQuantities() {
-
-        Logger.log("Entered the method Manager.sortCoffeePositionsByQuantities();");
-        sortingByQuantities:
-        {
-            while (true) {
-                ScreenUtils.printFramedString(
-                        " Sort the class \"Coffee\".\n" +
-                                " Please, choice your action:\n" +
-                                " 1 - Sort the class positions quantities ascending;\n" +
-                                " 2 - Sort the class positions quantities descending;\n" +
-                                " 3 - Back;");
-                switch (MenuUtils.getSelectedItem(3)) {
-                    case 1:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees, new CoffeeQuantitiesAscendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" positions quantities ascending.", coffees);
-                        break;
-                    case 2:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees,
-                                new CoffeeQuantitiesDescendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" positions quantities descending.", coffees);
-                        break;
-                    case 3:
-                        break sortingByQuantities;
-                }
-            }
-        }
-        Logger.log("Exited the method Manager.sortCoffeePositionsByQuantities();");
-    }
-
-    private static void sortCoffeePositionsByPrices() {
-
-        Logger.log("Entered the method Manager.sortCoffeePositionsByPrices();");
-        sortingByPrices:
-        {
-            while (true) {
-                ScreenUtils.printFramedString(
-                        " Sort the class \"Coffee\".\n" +
-                                " Please, choice your action:\n" +
-                                " 1 - Sort the class positions prices ascending;\n" +
-                                " 2 - Sort the class positions prices descending;\n" +
-                                " 3 - Back;");
-                switch (MenuUtils.getSelectedItem(3)) {
-                    case 1:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees, new CoffeePricesAscendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" positions prices ascending.", coffees);
-                        break;
-                    case 2:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees,
-                                new CoffeePricesDescendingComparator());
-                        ScreenUtils.printCoffeesTable(
-                                " The sorting class \"Coffee\" " +
-                                        "positions prices descending.", coffees);
-                        break;
-                    case 3:
-                        break sortingByPrices;
-                }
-            }
-        }
-        Logger.log("Exited the method Manager.sortCoffeePositionsByPrices();");
-    }
-
-    private static void sortCoffeePositionsByWeights() {
-
-        Logger.log("Entered the method Manager.sortCoffeePositionsByWeights();");
-        sortingByWeights:
-        {
-            while (true) {
-                ScreenUtils.printFramedString(
-                        " Sort the class \"Coffee\".\n" +
-                                " Please, choice your action:\n" +
-                                " 1 - Sort the class positions weights ascending;\n" +
-                                " 2 - Sort the class positions weights descending;\n" +
-                                " 3 - Back;");
-                switch (MenuUtils.getSelectedItem(3)) {
-                    case 1:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees, new CoffeeWeightsAscendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" positions weights ascending.", coffees);
-                        break;
-                    case 2:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees, new CoffeeWeightsDescendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" positions weights descending.", coffees);
-                        break;
-                    case 3:
-                        break sortingByWeights;
-                }
-            }
-        }
-        Logger.log("Exited the method Manager.sortCoffeePositionsByWeights();");
-    }
-
-    private static void sortCoffeePositionsByVolumes() {
-
-        Logger.log("Entered the method Manager.sortCoffeePositionsByVolumes();");
-        sortingByVolumes:
-        {
-            while (true) {
-                ScreenUtils.printFramedString(
-                        " Sort the class \"Coffee\".\n" +
-                                " Please, choice your action:\n" +
-                                " 1 - Sort the class positions volumes ascending;\n" +
-                                " 2 - Sort the class positions volumes descending;\n" +
-                                " 3 - Back;");
-                switch (MenuUtils.getSelectedItem(3)) {
-                    case 1:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees, new CoffeeWeightsAscendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" positions volumes ascending.", coffees);
-                        break;
-                    case 2:
-                        coffees = WarehouseUtils.getCoffees();
-                        Collections.sort(coffees, new CoffeeWeightsDescendingComparator());
-                        ScreenUtils.printCoffeesTable(" The sorting class " +
-                                "\"Coffee\" positions volumes descending.", coffees);
-                        break;
-                    case 3:
-                        break sortingByVolumes;
-                }
-            }
-        }
-        Logger.log("Exited the method Manager.sortCoffeePositionsByVolumes();");
     }
 }
 

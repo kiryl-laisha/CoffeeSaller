@@ -5320,3 +5320,999 @@ Exited the method Manager.workInMainMenu();
 Entered the method Seller.main();
 2021-12-28 14:50:20
 The account database has been loaded.
+2021-12-28 16:23:50
+Entered the method Manager.loadDatabases();
+2021-12-28 16:23:50
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 16:23:50
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 16:23:50
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 16:23:50
+The coffee database has been loaded;
+2021-12-28 16:23:50
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 16:23:50
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 16:23:50
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 16:23:50
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 16:23:50
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 16:23:50
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 16:23:50
+The cargovans database has been loaded;
+2021-12-28 16:23:50
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 16:23:50
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 16:23:50
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 16:23:50
+Exited the method Manager.loadDatabases();
+2021-12-28 16:23:50
+Entered the method Manager.workInMainMenu();
+2021-12-28 16:23:50
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:23:52
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:23:52
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 16:23:53
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:23:53
+Entered the method MenuUtils.getSelectedItem(), number of item = 4;
+2021-12-28 16:23:55
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:23:55
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 16:23:58
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:23:58
+Entered the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 16:23:58
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:23:58
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:23:58
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:24:01
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:24:01
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:24:01
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:24:01
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:24:01
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:24:01
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:47:50
+Entered the method Manager.loadDatabases();
+2021-12-28 16:47:50
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 16:47:50
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 16:47:50
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 16:47:50
+The coffee database has been loaded;
+2021-12-28 16:47:50
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 16:47:50
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 16:47:50
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 16:47:50
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 16:47:50
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 16:47:50
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 16:47:50
+The cargovans database has been loaded;
+2021-12-28 16:47:50
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 16:47:50
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 16:47:50
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 16:47:50
+Exited the method Manager.loadDatabases();
+2021-12-28 16:47:50
+Entered the method Manager.workInMainMenu();
+2021-12-28 16:47:50
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:47:51
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:47:51
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 16:47:53
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:47:53
+Entered the method MenuUtils.getSelectedItem(), number of item = 4;
+2021-12-28 16:47:55
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:47:55
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 16:47:56
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:47:56
+Entered the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 16:47:56
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:47:56
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:47:56
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:47:58
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:47:58
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:47:58
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:47:58
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:47:58
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:47:58
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:51:16
+Entered the method Manager.loadDatabases();
+2021-12-28 16:51:16
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 16:51:16
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 16:51:16
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 16:51:16
+The coffee database has been loaded;
+2021-12-28 16:51:16
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 16:51:16
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 16:51:16
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 16:51:16
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 16:51:16
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 16:51:16
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 16:51:16
+The cargovans database has been loaded;
+2021-12-28 16:51:16
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 16:51:16
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 16:51:16
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 16:51:16
+Exited the method Manager.loadDatabases();
+2021-12-28 16:51:16
+Entered the method Manager.workInMainMenu();
+2021-12-28 16:51:16
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:51:20
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:51:20
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 16:51:22
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:51:22
+Entered the method MenuUtils.getSelectedItem(), number of item = 4;
+2021-12-28 16:51:30
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:51:30
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 16:51:41
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:51:41
+Entered the method MenuUtils.getSelectedItem(), number of item = 4;
+2021-12-28 16:51:42
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:51:42
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:51:42
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:51:42
+Entered the method MenuUtils.getSelectedItem(), number of item = 4;
+2021-12-28 16:52:01
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:52:01
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 16:52:06
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:52:06
+Entered the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 16:52:06
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:06
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:06
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:52:15
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:52:15
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:52:15
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:52:15
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:15
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:15
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:52:32
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:52:32
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:52:32
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:52:32
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:32
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:32
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:52:47
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:52:47
+Exited the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 16:52:47
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 16:52:51
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:52:51
+Entered the method FoodProductUtils.sortCoffeePositionsByBrands();
+2021-12-28 16:52:51
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:51
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:51
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:52:53
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:52:53
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:52:53
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:52:53
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:53
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:52:53
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 16:53:31
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 16:53:31
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:53:31
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 16:53:31
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:53:31
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 16:53:31
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 17:01:12
+Entered the method Manager.loadDatabases();
+2021-12-28 17:01:12
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 17:01:12
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 17:01:12
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 17:01:12
+The coffee database has been loaded;
+2021-12-28 17:01:12
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 17:01:12
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 17:01:12
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 17:01:12
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 17:01:12
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 17:01:12
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 17:01:12
+The cargovans database has been loaded;
+2021-12-28 17:01:12
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 17:01:12
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 17:01:12
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 17:01:12
+Exited the method Manager.loadDatabases();
+2021-12-28 17:01:12
+Entered the method Manager.workInMainMenu();
+2021-12-28 17:01:12
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 17:01:16
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 17:01:16
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 17:01:22
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 17:01:22
+Entered the method MenuUtils.getSelectedItem(), number of item = 4;
+2021-12-28 17:01:24
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 17:01:24
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 17:01:29
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 17:01:29
+Entered the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 17:01:29
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 17:01:29
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 17:01:29
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 17:01:31
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 17:01:31
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 17:01:31
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 17:01:31
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 17:01:31
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 17:01:31
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 17:01:34
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 17:01:34
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 17:01:34
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 17:01:34
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 17:01:34
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 17:01:34
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:07:36
+Entered the method Manager.loadDatabases();
+2021-12-28 18:07:36
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 18:07:36
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 18:07:36
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 18:07:36
+The named file is empty;
+2021-12-28 18:07:36
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 18:07:36
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 18:07:36
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 18:07:36
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 18:07:36
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 18:07:36
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 18:07:36
+The cargovans database has been loaded;
+2021-12-28 18:07:36
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 18:07:36
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 18:07:36
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 18:07:36
+Exited the method Manager.loadDatabases();
+2021-12-28 18:07:36
+Entered the method Manager.workInMainMenu();
+2021-12-28 18:07:36
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:34
+Entered the method Manager.loadDatabases();
+2021-12-28 18:10:34
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 18:10:34
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 18:10:34
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 18:10:34
+The named file is empty;
+2021-12-28 18:10:34
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 18:10:34
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 18:10:34
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 18:10:35
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 18:10:35
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 18:10:35
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 18:10:35
+The cargovans database has been loaded;
+2021-12-28 18:10:35
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 18:10:35
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 18:10:35
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 18:10:35
+Exited the method Manager.loadDatabases();
+2021-12-28 18:10:35
+Entered the method Manager.workInMainMenu();
+2021-12-28 18:10:35
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:37
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:37
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 18:10:39
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:39
+Entered the method MenuUtils.getSelectedItem(), number of item = 4;
+2021-12-28 18:10:42
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:42
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 18:10:43
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:43
+Entered the method FoodProductUtils.sortCoffeePositions();
+2021-12-28 18:10:43
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:43
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:43
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:46
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:46
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:10:46
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:10:46
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:46
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:46
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:46
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:46
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:50
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:50
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:10:50
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:10:50
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:50
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:50
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:50
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:50
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:51
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:51
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:10:51
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:10:51
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:51
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:51
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:51
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:51
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:52
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:52
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:10:52
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:10:52
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:52
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:52
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:52
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:52
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:53
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:53
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:10:53
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:10:53
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:53
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:53
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:53
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:53
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:53
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:53
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:10:53
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:10:53
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:53
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:53
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:53
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:53
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:54
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:54
+Exited the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 18:10:54
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 18:10:55
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:55
+Entered the method FoodProductUtils.sortCoffeePositions();
+2021-12-28 18:10:55
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:55
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:55
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:56
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:56
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:10:56
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:10:56
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:56
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:56
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:56
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:56
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:10:57
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:10:57
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:10:57
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:10:57
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:57
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:10:57
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:57
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:10:57
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:14:58
+Entered the method Manager.loadDatabases();
+2021-12-28 18:14:58
+Entered the method Warehouse.loadWarehouseDatabases();
+2021-12-28 18:14:58
+Entered the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 18:14:58
+Entered the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 18:14:58
+The coffee database has been loaded;
+2021-12-28 18:14:58
+The coffee database has been loaded;
+Exited the method FoodProductUtils.loadCoffeeDatabase();
+2021-12-28 18:14:58
+The food product databases have been loaded;
+Exited the method WarehouseUtils.loadFoodProductDatabases();
+2021-12-28 18:14:58
+The warehouse databases have been loaded;
+Exited the method Warehouse.loadWarehouseDatabases();
+2021-12-28 18:14:58
+Entered the method Transport.loadTransportDatabases();
+2021-12-28 18:14:58
+Entered the method TransportUtils.loadVehiclesDatabase();
+2021-12-28 18:14:58
+Entered the method TransportUtils.loadCargovansDatabase();
+2021-12-28 18:14:58
+The cargovans database has been loaded;
+2021-12-28 18:14:58
+The cargovans database has been loaded;
+Exited the method TransportUtils.loadCargovansDatabase();
+2021-12-28 18:14:58
+The vehicles databases have been loaded;
+Exited the method TransportUtils.loadVehiclesDatabases();
+2021-12-28 18:14:58
+The transport databases have been loaded;
+Exited the method Transport.loadTransportDatabases();
+2021-12-28 18:14:58
+Exited the method Manager.loadDatabases();
+2021-12-28 18:14:58
+Entered the method Manager.workInMainMenu();
+2021-12-28 18:14:58
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:00
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:00
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 18:15:02
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:02
+Entered the method MenuUtils.getSelectedItem(), number of item = 4;
+2021-12-28 18:15:03
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:03
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 18:15:04
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:04
+Entered the method FoodProductUtils.sortCoffeePositions();
+2021-12-28 18:15:04
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:04
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:04
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:05
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:05
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:15:05
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:15:05
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:05
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:05
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:05
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:05
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:08
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:08
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:15:08
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:15:08
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:08
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:08
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:08
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:08
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:11
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:11
+Exited the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 18:15:11
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 18:15:13
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:13
+Entered the method FoodProductUtils.sortCoffeePositions();
+2021-12-28 18:15:13
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:13
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:13
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:15
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:15
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:15:15
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:15:15
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:15
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:15
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:15
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:15
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:20
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:20
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:15:20
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:15:20
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:20
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:20
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:20
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:20
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:29
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:29
+Exited the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 18:15:29
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 18:15:35
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:35
+Entered the method FoodProductUtils.sortCoffeePositions();
+2021-12-28 18:15:35
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:35
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:35
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:38
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:38
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:15:38
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:15:38
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:38
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:38
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:38
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:38
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:43
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:43
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:15:43
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:15:43
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:43
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:43
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:43
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:43
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:48
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:48
+Exited the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 18:15:48
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 18:15:49
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:49
+Entered the method FoodProductUtils.sortCoffeePositions();
+2021-12-28 18:15:49
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:49
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:49
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:53
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:53
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:15:53
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:15:53
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:53
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:53
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:53
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:53
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:15:58
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:15:58
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:15:58
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:15:58
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:58
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:15:58
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:58
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:15:58
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:16:04
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:04
+Exited the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 18:16:04
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 18:16:08
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:08
+Entered the method FoodProductUtils.sortCoffeePositions();
+2021-12-28 18:16:08
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:08
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:08
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:16:09
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:09
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:16:09
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:16:09
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:16:09
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:16:09
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:09
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:09
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:16:13
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:13
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:16:13
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:16:13
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:16:13
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:16:13
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:13
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:13
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:16:15
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:16
+Exited the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 18:16:16
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 18:16:17
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:17
+Entered the method FoodProductUtils.sortCoffeePositions();
+2021-12-28 18:16:17
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:17
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:17
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:16:18
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:18
+Entered the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:16:18
+Exited the method FoodProductUtils.sortAscendingCoffeePositions();
+2021-12-28 18:16:18
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:16:18
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:16:18
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:18
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:18
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:16:23
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:23
+Entered the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:16:23
+Exited the method FoodProductUtils.sortDescendingCoffeePositions();
+2021-12-28 18:16:23
+Entered the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:16:23
+Exited the method ScreenUtils.printCoffeeTable();
+2021-12-28 18:16:23
+Entered the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:23
+Exited the method ScreenUtils.printMenuForChoiceSortingType();
+2021-12-28 18:16:23
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:16:25
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:25
+Exited the method FoodProductUtils.sortCoffeePositionsByTypes();
+2021-12-28 18:16:25
+Entered the method MenuUtils.getSelectedItem(), number of item = 7;
+2021-12-28 18:16:27
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:27
+Entered the method MenuUtils.getSelectedItem(), number of item = 4;
+2021-12-28 18:16:29
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:29
+Entered the method MenuUtils.getSelectedItem(), number of item = 5;
+2021-12-28 18:16:30
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:30
+Entered the method MenuUtils.getSelectedItem(), number of item = 3;
+2021-12-28 18:16:32
+Exited the method MenuUtils.getSelectedItem();
+2021-12-28 18:16:32
+Exited the method Manager.workInMainMenu();
+2021-12-28 18:16:32
+Entered the method Seller.main();
+2021-12-28 18:16:32
+The account database has been loaded.

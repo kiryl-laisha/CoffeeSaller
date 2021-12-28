@@ -107,4 +107,16 @@ public class ScreenUtils {
         }
         Logger.log("Exited the method ScreenUtils.printFoodProductTypesForChoice();");
     }
+
+    static void printMenuForChoiceSortingType(String sortingPositionName) {
+
+        Logger.log("Entered the method ScreenUtils.printMenuForChoiceSortingType();");
+        printFramedString(
+                " Sort the class \"Coffee\".\n" +
+                        " Please, choice your action:\n" +
+                        " 1 - Sort the class " + sortingPositionName + " ascending;\n" +
+                        " 2 - Sort the class " + sortingPositionName + " descending;\n" +
+                        " 3 - Back;");
+        Logger.log("Exited the method ScreenUtils.printMenuForChoiceSortingType();");
+    }
 }
