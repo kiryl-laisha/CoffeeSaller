@@ -18,5 +18,14 @@ public class Transport {
         Logger.log("The transport databases have been loaded;\n" +
                 "Exited the method Transport.loadTransportDatabases();");
     }
+
+    public static void saveTransportDatabases() {
+
+        Logger.log("Entered the method Transport.saveTransportDatabases();");
+        TransportUtils.saveVehiclesDatabases();
+        ScreenUtils.printString("The transport databases have been saved;");
+        Logger.log("The transport databases have been saved;\n" +
+                "Exited the method Transport.saveTransportDatabases();");
+    }
 }
 

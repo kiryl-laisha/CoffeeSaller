@@ -20,6 +20,10 @@ public final class Seller {
         } catch (Exception exception) {  //TODO set the necessary exception (NoSuchElementException?)
             Logger.log("Main menu or account authorization error;");
             System.out.println("System error, restart, please;");
+        } finally {
+            // databases saving
+            Manager.saveDatabases();
+            Manager.parting();
         }
         Logger.log("Exited the method Seller.main();");
     }

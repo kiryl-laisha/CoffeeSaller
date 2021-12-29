@@ -30,6 +30,16 @@ public class TransportUtils {
                 "Exited the method TransportUtils.loadVehiclesDatabases();");
     }
 
+    public static void saveVehiclesDatabases() {
+
+        Logger.log("Entered the method TransportUtils.saveVehiclesDatabases();");
+        //saveMinivansDatabase(); will be used to expand the program
+        //saveCarsDatabase(); will be used to expand the program
+        saveCargovansDatabase();
+        Logger.log("The vehicles databases have been saved;\n" +
+                "Exited the method TransportUtils.saveVehiclesDatabases();");
+    }
+
     private static void loadCargovansDatabase() {
 
         cargovans = new ArrayList<>();
@@ -55,6 +65,14 @@ public class TransportUtils {
         }
         Logger.log("The cargovans database has been loaded;\n" +
                 "Exited the method TransportUtils.loadCargovansDatabase();");
+    }
+
+    private static void saveCargovansDatabase() {
+
+        Logger.log("Entered the method TransportUtils.saveCargovansDatabase();");
+
+        Logger.log("The cargovans database has been saved;\n" +
+                "Exited the method TransportUtils.saveCargovansDatabase();");
     }
 
     public static ArrayList<Cargovan> getCargovans() {

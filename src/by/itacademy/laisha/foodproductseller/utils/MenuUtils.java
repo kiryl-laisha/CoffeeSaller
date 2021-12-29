@@ -259,7 +259,7 @@ public class MenuUtils {
         return newPositionAvailability;
     }
 
-    public static int getChosenPositionQuantity(int selectedPositionItem, ArrayList<Coffee> remainingCoffees) {
+    public static int getSelectedPositionQuantity(int selectedPositionItem, ArrayList<Coffee> remainingCoffees) {
 
         String selectedPositionQuantity = "";
 
@@ -289,5 +289,50 @@ public class MenuUtils {
         return Integer.parseInt(selectedPositionQuantity);
 
     }
+
+    public static void choiceCoffeeClassSorting(String descriptionName, ArrayList<Coffee> coffees) {
+        while (true) {
+            ScreenUtils.printFramedString(
+                    " The class \"Coffee\" menu \"Sorting\".\n" +
+                            " Please, choice your action:\n" +
+                            " 1 - Sort the class by types;\n" +
+                            " 2 - Sort the class by brands;\n" +
+                            " 3 - Sort the class by quantities;\n" +
+                            " 4 - Sort the class by prices;\n" +
+                            " 5 - Sort the class by weights;\n" +
+                            " 6 - Sort the class by volumes;\n" +
+                            " 7 - Back;");
+            switch (getSelectedItem(7)) {
+                case 1:
+                    FoodProductUtils.sortCoffeePositions(descriptionName,
+                            "types", coffees);
+                    break;
+                case 2:
+                    FoodProductUtils.sortCoffeePositions(descriptionName,
+                            "position brands", coffees);
+                    break;
+                case 3:
+                    FoodProductUtils.sortCoffeePositions(descriptionName,
+                            "position quantities", coffees);
+                    break;
+                case 4:
+                    FoodProductUtils.sortCoffeePositions(descriptionName,
+                            "position prices", coffees);
+                    break;
+                case 5:
+                    FoodProductUtils.sortCoffeePositions(descriptionName,
+                            "position weights", coffees);
+                    break;
+                case 6:
+                    FoodProductUtils.sortCoffeePositions(descriptionName,
+                            "position volumes", coffees);
+                    break;
+                case 7:
+                    return;
+            }
+        }
+    }
+
+
 }
 

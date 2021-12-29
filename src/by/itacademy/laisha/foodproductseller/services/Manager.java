@@ -1,12 +1,12 @@
 package by.itacademy.laisha.foodproductseller.services;
 
+import by.itacademy.laisha.foodproductseller.account.AccountDatabase;
 import by.itacademy.laisha.foodproductseller.enums.FoodProductClasses;
 import by.itacademy.laisha.foodproductseller.enums.VehicleTypes;
 import by.itacademy.laisha.foodproductseller.utils.*;
 
 public class Manager {
 
-    // loading of databases
     public static void loadDatabases() {
 
         Logger.log("Entered the method Manager.loadDatabases();");
@@ -82,46 +82,9 @@ public class Manager {
                                                                 }
                                                             }
                                                         case 3:
-                                                            while (true) {
-                                                                ScreenUtils.printFramedString(
-                                                                        " The class \"Coffee\" menu \"Sorting\".\n" +
-                                                                                " Please, choice your action:\n" +
-                                                                                " 1 - Sort the class by types;\n" +
-                                                                                " 2 - Sort the class by brands;\n" +
-                                                                                " 3 - Sort the class by quantities;\n" +
-                                                                                " 4 - Sort the class by prices;\n" +
-                                                                                " 5 - Sort the class by weights;\n" +
-                                                                                " 6 - Sort the class by volumes;\n" +
-                                                                                " 7 - Back;");
-                                                                switch (MenuUtils.getSelectedItem(7)) {
-                                                                    case 1:
-                                                                        FoodProductUtils.sortCoffeePositions(
-                                                                                "types");
-                                                                        break;
-                                                                    case 2:
-                                                                        FoodProductUtils.sortCoffeePositions(
-                                                                                "position brands");
-                                                                        break;
-                                                                    case 3:
-                                                                        FoodProductUtils.sortCoffeePositions(
-                                                                                "position quantities");
-                                                                        break;
-                                                                    case 4:
-                                                                        FoodProductUtils.sortCoffeePositions(
-                                                                                "position prices");
-                                                                        break;
-                                                                    case 5:
-                                                                        FoodProductUtils.sortCoffeePositions(
-                                                                                "position weights");
-                                                                        break;
-                                                                    case 6:
-                                                                        FoodProductUtils.sortCoffeePositions(
-                                                                                "position volumes");
-                                                                        break;
-                                                                    case 7:
-                                                                        break coffeeMenu;
-                                                                }
-                                                            }
+                                                            MenuUtils.choiceCoffeeClassSorting("",
+                                                                    WarehouseUtils.getCoffees());
+                                                            break coffeeMenu;
                                                         case 4:
                                                             break warehouseMenu;
                                                     }
@@ -229,6 +192,22 @@ public class Manager {
             }
         }
         Logger.log("Exited the method Manager.workInMainMenu();");
+    }
+
+
+    public static void saveDatabases() {
+
+        Logger.log("Entered the method Manager.saveDatabases();");
+        Warehouse.saveWarehouseDatabases();
+        Transport.saveTransportDatabases();
+        Logger.log("Exited the method Manager.saveDatabases();");
+
+    }
+
+    public static void parting() {
+
+        ScreenUtils.printFramedString("Good bye, " + AccountDatabase.account.getUserAccountName() +
+                "! Come back for more, please.");
     }
 }
 

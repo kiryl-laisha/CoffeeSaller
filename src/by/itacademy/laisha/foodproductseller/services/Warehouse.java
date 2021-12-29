@@ -19,5 +19,14 @@ public class Warehouse {
         Logger.log("The warehouse databases have been loaded;\n" +
                 "Exited the method Warehouse.loadWarehouseDatabases();");
     }
+
+    public static void saveWarehouseDatabases() {
+
+        Logger.log("Entered the method Warehouse.saveWarehouseDatabases();");
+        WarehouseUtils.saveFoodProductDatabases();
+        ScreenUtils.printFramedString("The warehouse databases have been saved;");
+        Logger.log("The warehouse databases have been saved;\n" +
+                "Exited the method Warehouse.saveWarehouseDatabases();");
+    }
 }
 
