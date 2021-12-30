@@ -26,21 +26,9 @@ public final class FoodProductUtils {
         try {
             scanner = new Scanner(new BufferedReader(new FileReader(INPUT_FILES_FOLDER +
                     "coffeetypes" + ".txt")));
-            while (scanner.hasNextLine()) {
-                coffeeTypes.add(scanner.nextLine().trim());
-            }
+            loadCoffeeTypes(scanner);
             scanner.close();
-            for (String coffeeType : coffeeTypes) {
-                scanner = new Scanner(new BufferedReader(new FileReader(INPUT_FILES_FOLDER +
-                        coffeeType.toLowerCase() + FoodProductClasses.COFFEE.getProductClass().toLowerCase() +
-                        ".txt"))).useDelimiter(";");
-                while (scanner.hasNextLine()) {//TODO may be new empty file, when new type has been created
-                    coffees.add(new Coffee(scanner.next().trim(), scanner.next().trim(),
-                            Integer.parseInt(scanner.next().trim()), Double.parseDouble(scanner.next().trim()),
-                            Double.parseDouble(scanner.next().trim()), Double.parseDouble(scanner.next().trim())));
-                }
-                scanner.close();
-            }
+            loadCoffees();
             Logger.log("The coffee database has been loaded;");
         } catch (FileNotFoundException fileNotFoundException) {
             Logger.log("The named file was not found or for some other reason could not be opened for reading;");
@@ -58,6 +46,40 @@ public final class FoodProductUtils {
         Logger.log("The coffee database has been loaded;\n" +
                 "Exited the method FoodProductUtils.loadCoffeeDatabase();");
         return coffees;
+    }
+
+    private static void loadCoffees() throws FileNotFoundException {
+
+        Logger.log("Entered the method FoodProductUtils.loadCoffees();");
+        Scanner scanner;
+        for (String coffeeType : coffeeTypes) {
+            scanner = new Scanner(new BufferedReader(new FileReader(INPUT_FILES_FOLDER +
+                    coffeeType.toLowerCase() + FoodProductClasses.COFFEE.getProductClass().toLowerCase() +
+                    ".txt"))).useDelimiter(";");
+            loadCoffee(scanner);
+            scanner.close();
+        }
+        Logger.log("Exited the method FoodProductUtils.loadCoffees();");
+    }
+
+    private static void loadCoffeeTypes(Scanner scanner) {
+
+        Logger.log("Entered the method FoodProductUtils.loadCoffeeTypes();");
+        while (scanner.hasNextLine()) {
+            coffeeTypes.add(scanner.nextLine().trim());
+            Logger.log("Exited the method FoodProductUtils.loadCoffeeTypes();");
+        }
+    }
+
+    private static void loadCoffee(Scanner scanner) {
+
+        Logger.log("Entered the method FoodProductUtils.loadCoffee();");
+        while (scanner.hasNextLine()) {
+            coffees.add(new Coffee(scanner.next().trim(), scanner.next().trim(),
+                    Integer.parseInt(scanner.next().trim()), Double.parseDouble(scanner.next().trim()),
+                    Double.parseDouble(scanner.next().trim()), Double.parseDouble(scanner.next().trim())));
+        }
+        Logger.log("Exited the method FoodProductUtils.loadCoffeeTypes();");
     }
 
     public static void saveCoffeeDatabase() {

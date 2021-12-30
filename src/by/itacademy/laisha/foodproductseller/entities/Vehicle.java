@@ -1,5 +1,7 @@
 package by.itacademy.laisha.foodproductseller.entities;
 
+import java.util.Objects;
+
 public abstract class Vehicle {
 
     private static final String TRANSPORT_CLASS = "Vehicle";
@@ -57,4 +59,33 @@ public abstract class Vehicle {
     public boolean getVehicleAvailability() {
         return this.vehicleAvailability;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Vehicle)) return false;
+        Vehicle vehicle = (Vehicle) o;
+        return vehicleAvailability == vehicle.vehicleAvailability &&
+                vehicleType.equals(vehicle.vehicleType) &&
+                vehicleBrand.equals(vehicle.vehicleBrand) &&
+                vehicleModel.equals(vehicle.vehicleModel) &&
+                vehicleRegisterSign.equals(vehicle.vehicleRegisterSign);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(vehicleType, vehicleBrand, vehicleModel, vehicleRegisterSign, vehicleAvailability);
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "vehicleType='" + vehicleType + '\'' +
+                ", vehicleBrand='" + vehicleBrand + '\'' +
+                ", vehicleModel='" + vehicleModel + '\'' +
+                ", vehicleRegisterSign='" + vehicleRegisterSign + '\'' +
+                ", vehicleAvailability=" + vehicleAvailability +
+                '}';
+    }
 }
+

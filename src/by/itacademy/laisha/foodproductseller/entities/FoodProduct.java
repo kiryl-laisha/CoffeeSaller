@@ -1,5 +1,7 @@
 package by.itacademy.laisha.foodproductseller.entities;
 
+import java.util.Objects;
+
 public abstract class FoodProduct {
 
     private String foodProductClass; //TODO think again about constancy
@@ -85,5 +87,38 @@ public abstract class FoodProduct {
     public void setFoodProductVolume(double foodProductVolume) {
 
         this.foodProductVolume = foodProductVolume;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof FoodProduct)) return false;
+        FoodProduct foodProduct = (FoodProduct) o;
+        return foodProductQuantity == foodProduct.foodProductQuantity &&
+                Double.compare(foodProduct.foodProductPrice, foodProductPrice) == 0 &&
+                Double.compare(foodProduct.foodProductWeight, foodProductWeight) == 0 &&
+                Double.compare(foodProduct.foodProductVolume, foodProductVolume) == 0 &&
+                foodProductClass.equals(foodProduct.foodProductClass) &&
+                foodProductType.equals(foodProduct.foodProductType) &&
+                foodProductBrand.equals(foodProduct.foodProductBrand);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(foodProductClass, foodProductType, foodProductBrand,
+                foodProductQuantity, foodProductPrice, foodProductWeight, foodProductVolume);
+    }
+
+    @Override
+    public String toString() {
+        return "FoodProduct{" +
+                "foodProductClass='" + foodProductClass + '\'' +
+                ", foodProductType='" + foodProductType + '\'' +
+                ", foodProductBrand='" + foodProductBrand + '\'' +
+                ", foodProductQuantity=" + foodProductQuantity +
+                ", foodProductPrice=" + foodProductPrice +
+                ", foodProductWeight=" + foodProductWeight +
+                ", foodProductVolume=" + foodProductVolume +
+                '}';
     }
 }

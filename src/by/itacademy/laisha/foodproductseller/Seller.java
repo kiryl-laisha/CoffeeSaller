@@ -17,7 +17,7 @@ public final class Seller {
                 // working in main menu
                 Manager.workInMainMenu();
             }
-        } catch (Exception exception) {  //TODO set the necessary exception (NoSuchElementException?)
+        } catch (Exception exception) {
             Logger.log("Main menu or account authorization error;");
             System.out.println("System error, restart, please;");
         } finally {

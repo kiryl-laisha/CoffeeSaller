@@ -63,18 +63,8 @@ public class WarehouseUtils {
                 }
                 printOrderParameters();
                 printCoffeeTableWithChosenSorting("ordering", orderingCoffees);
-                ScreenUtils.printFramedString(
-                        " The class \"Coffee\" order.\n" +
-                                " Please, choice your action:\n" +
-                                " 1 - Continue to form the order;\n" +
-                                " 2 - Set the order;");
-                switch (MenuUtils.getSelectedItem(2)) {
-                    case 1:
-                        break;
-                    case 2:
-                        setOrder(remainingCoffees);
-                        checkOrder();
-                        break orderForming;
+                if (choiceContinueOrAssertionOfOrder(remainingCoffees)) {
+                    break orderForming;
                 }
             }
             while (true);
@@ -202,7 +192,25 @@ public class WarehouseUtils {
         Logger.log("Exited the method WarehouseUtils.addCoffeeToOrder();");
     }
 
-    private static void setOrder(ArrayList<Coffee> remainingCoffees) {
+    private static boolean choiceContinueOrAssertionOfOrder(ArrayList<Coffee> remainingCoffees) {
+
+        ScreenUtils.printFramedString(
+                " The class \"Coffee\" order.\n" +
+                        " Please, choice your action:\n" +
+                        " 1 - Continue to form the order;\n" +
+                        " 2 - Set the order;");
+        switch (MenuUtils.getSelectedItem(2)) {
+            case 1:
+                break;
+            case 2:
+                assertOrder(remainingCoffees);
+                checkOrder();
+                return true;
+        }
+        return false;
+    }
+
+    private static void assertOrder(ArrayList<Coffee> remainingCoffees) {
 
         Logger.log("Entered the method WarehouseUtils.setOrder();");
         ScreenUtils.printStrip();

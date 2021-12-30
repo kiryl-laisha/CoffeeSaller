@@ -269,16 +269,8 @@ public class MenuUtils {
                 ScreenUtils.printFramedString("Enter a quantity of the chosen position (things), please:\n" +
                         "(for back enter 0)");
                 selectedPositionQuantity = scanner.nextLine();
-                if (Pattern.matches("[0-9]+", selectedPositionQuantity)) {
-                    if (Integer.parseInt(selectedPositionQuantity) <=
-                            (remainingCoffees.get(selectedPositionItem - 1).getFoodProductQuantity())) {
-                        break;
-                    } else {
-                        ScreenUtils.printFramedString("You have chosen " +
-                                "the quantity of this position more then there is in a warehouse:");
-                    }
-                } else {
-                    ScreenUtils.printFramedString("Allowed to use only arabic numbers.");
+                if (getSelectedQuantity(selectedPositionItem, remainingCoffees, selectedPositionQuantity)) {
+                    break;
                 }
             } while (true);
         } catch (NoSuchElementException noSuchElementException) {
@@ -288,6 +280,21 @@ public class MenuUtils {
         Logger.log("Exited the method MenuUtils.getChosenPositionQuantity();");
         return Integer.parseInt(selectedPositionQuantity);
 
+    }
+
+    private static boolean getSelectedQuantity(int selectedPositionItem, ArrayList<Coffee> remainingCoffees, String selectedPositionQuantity) {
+        if (Pattern.matches("[0-9]+", selectedPositionQuantity)) {
+            if (Integer.parseInt(selectedPositionQuantity) <=
+                    (remainingCoffees.get(selectedPositionItem - 1).getFoodProductQuantity())) {
+                return true;
+            } else {
+                ScreenUtils.printFramedString("You have chosen " +
+                        "the quantity of this position more then there is in a warehouse:");
+            }
+        } else {
+            ScreenUtils.printFramedString("Allowed to use only arabic numbers.");
+        }
+        return false;
     }
 
     public static void choiceCoffeeClassSorting(String descriptionName, ArrayList<Coffee> coffees) {
